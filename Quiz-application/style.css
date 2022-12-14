@@ -1,0 +1,192 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home{
+	background: url(cover.jpg) no-repeat center center / cover;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.1),#006b96),url(cover.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.welcome{
+    
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	border-left: 1px solid rgba(255, 255, 255, 0.5);
+	z-index: 12;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%,-50%);
+}
+.welcome h4{
+    margin: 2rem;
+	background-color: #fff;
+	padding: 10px ;
+	font-weight: 500;
+	border-radius: 10px;
+}
+.f{
+    margin: 0.5rem;
+}
+.f label{
+	padding: 0.8rem;
+	margin: 1rem;
+	font-size: 1rem;
+	font-weight: 500;
+	font-family: sans-serif;
+}
+.f input{
+	padding: 0.3rem;
+	border: none;
+	border-bottom: 1px solid #000;
+	text-decoration: none;
+	outline:none;
+	color: #262626;
+	padding: 0.5rem;
+	font-size: 0.9rem;
+}
+.btn{
+	text-decoration: none;
+	margin: 20px 10px;
+	z-index: 1;
+}
+.btn button{
+	padding: 5px 30px;
+	color: #262626;
+	font-weight: 500;
+	/* transition: 0.5s; */
+}
+.btn button:hover{
+	color: #000;
+	background: lightgrey;
+}
+/* ############################################################################################### */
+/* QUIZ CODE */
+.qq{
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.1),#009689),url(w_p.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.quiz-content{
+	padding: 2rem;
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	border-left: 1px solid rgba(255, 255, 255, 0.5);
+	align-items: center;
+	justify-content: center;
+	padding: 30px 50px ;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%,-50%);
+}
+.quiz-content ul{
+	text-decoration: none;
+	list-style: none;
+}
+.ques{
+	font-weight: 500;
+}
+.question ul li{
+	margin: 1rem;
+}
+.question ul li label{
+	margin: 10px;
+	font-weight: 500;
+}
+.sub{
+	margin-top: 30px;
+}
+.sub button{
+	padding: 5px 20px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+.sub button:hover{
+	background: blueviolet;
+	color: #fff;
+}
+#next{
+	float: right;
+}
+.su button{
+	text-decoration: none;
+	padding: 10px 50px;
+	background: rgb(236, 71, 71);
+	border: 1px solid black;
+	font-weight: 500;
+	color: #fff;
+	border-radius: 5px;
+	margin-top: 20px;
+	transition: .5s;
+}
+.su button:hover{
+	background-color: rgb(33, 223, 33);
+}
+.flash{
+	width: auto;
+}
+.final{
+	display: none;
+	margin-top: 20px;
+}
+.final a{
+	text-decoration: none;
+}
+.final #fi{
+	padding: 10px 50px;
+	background-color: rgb(47, 255, 64);
+	color: #000;
+	font-weight: 500;
+	border: 1px solid #fff;
+}
+#fi:hover{
+	color: #fff;
+	background-color: rgb(158, 70, 241);
+}
+/* ####################################################### */
+.result-f{
+	display: none;
+	background-position: center;
+	background-size: cover;
+	z-index: 1;
+}
+.f-res{
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	border-left: 1px solid rgba(255, 255, 255, 0.5);
+	z-index: 12;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 30px 50px;
+	width: 100%;
+	height: 70vh;
+}
+.f-res h2{
+	display: block;
+	margin: 10%;
+	border: 1px solid #000;
+	padding: 10px 50px;
+}
+
+@media only screen and (max-width: 912px) {
+	*{
+		font-size: 13px;
+	}
+	.sub button{
+		padding: 5px 10px;
+	}
+	.su button{
+		/* padding: 5px 10px; */
+	}
+  }
+
+
