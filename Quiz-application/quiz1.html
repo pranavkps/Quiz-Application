@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body class="qq">
+    <div class="quiz-content" id="quiz">
+        <div class="question">
+            <center><h1 id="f"></h1></center>
+            <span class="ques">1. Which method of the Class.class is used to determine 
+                the name of a class represented by the class object as a String?</span>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="a" class="answer" value="a">
+                    <label for="a" id="a_text">getClass()</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="answer" id="b" class="answer" value="b">
+                    <label for="b" id="b_text">intern()</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="answer" id="c" class="answer" value="c">
+                    <label for="t" id="c_text">getName()</label>
+                  </li>
+                  <li>
+                    <input type="radio" name="answer" id="d" class="answer" value="d">
+                    <label for="d" id="d_text">toString()</label>
+                  </li>
+            </ul>
+        </div>
+        
+            <div class="sub">
+                <span><button id="pre1" onclick="prev()">PREV</button></span>
+                <span><button id="clea_r" onclick="cl()">CLEAR</button></span>
+                <span><button id="next" onclick="next()">NEXT</button></span>
+            </div>
+        <div class="su">
+            <div class="submit">
+            <center><span><button id="submit" onclick="check()">CONFIRM SELECTION</button></span></center>
+            </div>
+        </div>
+        <div class="final">
+            <center><button id="fi" onclick="res()">FINAL SUBMIT</button></center>
+        </div>
+
+        <div class="result-f">
+            <center><h3>THANK YOU FOR ATTEMPTING THE QUIZ</h3></center> 
+            <div class="f-res"> 
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
